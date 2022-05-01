@@ -1,3 +1,7 @@
+"""
+Code obtained from:
+https://github.com/xunzheng/notears/blob/master/notears/trace_expm.py
+"""
 import torch
 import numpy as np
 import scipy.linalg as slin

@@ -1,3 +1,7 @@
+"""
+Code obtained from:
+https://github.com/xunzheng/notears/blob/master/notears/locally_connected.py
+"""
 import torch
 import torch.nn as nn
 import math

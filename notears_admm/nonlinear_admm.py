@@ -8,6 +8,10 @@ from notears_admm.trace_expm import trace_expm
 
 
 class NonlinearModel(nn.Module):
+    """
+    Code modified from:
+    https://github.com/xunzheng/notears/blob/master/notears/nonlinear.py
+    """
     def __init__(self, dims, bias=True):
         super(NonlinearModel, self).__init__()
         assert len(dims) >= 2

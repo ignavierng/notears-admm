@@ -1,3 +1,7 @@
+"""
+Code obtained from:
+https://github.com/xunzheng/notears/blob/master/notears/lbfgsb_scipy.py
+"""
 import torch
 import scipy.optimize as sopt
 

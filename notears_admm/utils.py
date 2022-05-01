@@ -1,3 +1,7 @@
+"""
+Code modified from:
+https://github.com/xunzheng/notears/blob/master/notears/utils.py
+"""
 import numpy as np
 from scipy.special import expit as sigmoid
 import igraph as ig
