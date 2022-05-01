@@ -2,11 +2,13 @@ import numpy as np
 from scipy.special import expit as sigmoid
 import igraph as ig
 import random
+import torch
 
 
 def set_random_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
+    torch.manual_seed(seed)
 
 
 def is_dag(W):
